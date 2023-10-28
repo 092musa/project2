@@ -28,11 +28,3 @@ curl http://localhost:8080/auth
 GET:/.well-known/jwks.json
 Use this endpoint to retrieve valid (non-expired) public keys.
 It reads keys from the database and returns a JWKS response.
-Example request:
-
-bash
-Copy code
-curl http://localhost:8080/.well-known/jwks.json
-Customization
-Customize the code to generate keys and store them in the SQLite database based on your requirements.
-Implement additional security features and best practices for a production-ready application.
