@@ -20,11 +20,4 @@ POST:/auth
 Use this endpoint for JWT authentication.
 It reads a private key from the database and signs a JWT.
 You can pass the "expired" query parameter to test with expired keys.
-Example request:
 
-bash
-Copy code
-curl http://localhost:8080/auth
-GET:/.well-known/jwks.json
-Use this endpoint to retrieve valid (non-expired) public keys.
-It reads keys from the database and returns a JWKS response.
